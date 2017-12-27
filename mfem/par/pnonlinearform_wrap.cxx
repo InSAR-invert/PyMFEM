@@ -3859,6 +3859,11 @@ SWIGINTERN PyObject *_wrap_new_ParNonlinearForm(PyObject *SWIGUNUSEDPARM(self), 
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__ParNonlinearForm, SWIG_POINTER_NEW |  0 );
   return resultobj;
@@ -3888,6 +3893,11 @@ SWIGINTERN PyObject *_wrap_ParNonlinearForm_ParFESpace(PyObject *SWIGUNUSEDPARM(
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__ParFiniteElementSpace, 0 |  0 );
   return resultobj;
@@ -3937,6 +3947,11 @@ SWIGINTERN PyObject *_wrap_ParNonlinearForm_SetEssentialBC__SWIG_0(PyObject *SWI
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -3977,6 +3992,11 @@ SWIGINTERN PyObject *_wrap_ParNonlinearForm_SetEssentialBC__SWIG_1(PyObject *SWI
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -4071,6 +4091,11 @@ SWIGINTERN PyObject *_wrap_ParNonlinearForm_GetEnergy__SWIG_0(PyObject *SWIGUNUS
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_From_double(static_cast< double >(result));
   return resultobj;
@@ -4112,6 +4137,11 @@ SWIGINTERN PyObject *_wrap_ParNonlinearForm_GetEnergy__SWIG_1(PyObject *SWIGUNUS
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_From_double(static_cast< double >(result));
   return resultobj;
@@ -4212,6 +4242,11 @@ SWIGINTERN PyObject *_wrap_ParNonlinearForm_Mult(PyObject *SWIGUNUSEDPARM(self),
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -4253,6 +4288,11 @@ SWIGINTERN PyObject *_wrap_ParNonlinearForm_GetLocalGradient(PyObject *SWIGUNUSE
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__SparseMatrix, 0 |  0 );
   return resultobj;
@@ -4294,6 +4334,11 @@ SWIGINTERN PyObject *_wrap_ParNonlinearForm_GetGradient(PyObject *SWIGUNUSEDPARM
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__Operator, 0 |  0 );
   return resultobj;
@@ -4331,6 +4376,11 @@ SWIGINTERN PyObject *_wrap_ParNonlinearForm_SetGradientType(PyObject *SWIGUNUSED
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -4360,6 +4410,11 @@ SWIGINTERN PyObject *_wrap_ParNonlinearForm_GetProlongation(PyObject *SWIGUNUSED
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__Operator, 0 |  0 );
   return resultobj;
@@ -4389,6 +4444,11 @@ SWIGINTERN PyObject *_wrap_ParNonlinearForm_GetRestriction(PyObject *SWIGUNUSEDP
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__Operator, 0 |  0 );
   return resultobj;
@@ -4417,6 +4477,11 @@ SWIGINTERN PyObject *_wrap_delete_ParNonlinearForm(PyObject *SWIGUNUSEDPARM(self
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_Py_Void();
   return resultobj;

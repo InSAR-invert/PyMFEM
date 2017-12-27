@@ -3633,6 +3633,11 @@ SWIGINTERN PyObject *_wrap_new_NonlinearForm(PyObject *SWIGUNUSEDPARM(self), PyO
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__NonlinearForm, SWIG_POINTER_NEW |  0 );
   return resultobj;
@@ -3662,6 +3667,11 @@ SWIGINTERN PyObject *_wrap_NonlinearForm_FESpace__SWIG_0(PyObject *SWIGUNUSEDPAR
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__FiniteElementSpace, 0 |  0 );
   return resultobj;
@@ -3691,6 +3701,11 @@ SWIGINTERN PyObject *_wrap_NonlinearForm_FESpace__SWIG_1(PyObject *SWIGUNUSEDPAR
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__FiniteElementSpace, 0 |  0 );
   return resultobj;
@@ -3768,6 +3783,11 @@ SWIGINTERN PyObject *_wrap_NonlinearForm_AddDomainIntegrator(PyObject *SWIGUNUSE
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -3805,6 +3825,11 @@ SWIGINTERN PyObject *_wrap_NonlinearForm_AddInteriorFaceIntegrator(PyObject *SWI
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -3842,6 +3867,11 @@ SWIGINTERN PyObject *_wrap_NonlinearForm_AddBdrFaceIntegrator__SWIG_0(PyObject *
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -3891,6 +3921,11 @@ SWIGINTERN PyObject *_wrap_NonlinearForm_AddBdrFaceIntegrator__SWIG_1(PyObject *
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -3995,6 +4030,11 @@ SWIGINTERN PyObject *_wrap_NonlinearForm_SetEssentialBC__SWIG_0(PyObject *SWIGUN
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -4035,6 +4075,11 @@ SWIGINTERN PyObject *_wrap_NonlinearForm_SetEssentialBC__SWIG_1(PyObject *SWIGUN
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -4128,6 +4173,11 @@ SWIGINTERN PyObject *_wrap_NonlinearForm_SetEssentialVDofs(PyObject *SWIGUNUSEDP
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -4169,6 +4219,11 @@ SWIGINTERN PyObject *_wrap_NonlinearForm_GetEnergy(PyObject *SWIGUNUSEDPARM(self
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_From_double(static_cast< double >(result));
   return resultobj;
@@ -4221,6 +4276,11 @@ SWIGINTERN PyObject *_wrap_NonlinearForm_Mult(PyObject *SWIGUNUSEDPARM(self), Py
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -4262,6 +4322,11 @@ SWIGINTERN PyObject *_wrap_NonlinearForm_GetGradient(PyObject *SWIGUNUSEDPARM(se
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__Operator, 0 |  0 );
   return resultobj;
@@ -4290,6 +4355,11 @@ SWIGINTERN PyObject *_wrap_delete_NonlinearForm(PyObject *SWIGUNUSEDPARM(self), 
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -4331,6 +4401,11 @@ SWIGINTERN PyObject *_wrap_NonlinearForm_GetGradientMatrix(PyObject *SWIGUNUSEDP
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
     }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__SparseMatrix, 0 |  0 );
   return resultobj;

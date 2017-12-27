@@ -102,6 +102,76 @@ except __builtin__.Exception:
     weakref_proxy = lambda x: x
 
 
+class intp(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, intp, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, intp, name)
+    __repr__ = _swig_repr
+
+    def __init__(self):
+        this = _bilinearform.new_intp()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _bilinearform.delete_intp
+    __del__ = lambda self: None
+
+    def assign(self, value):
+        return _bilinearform.intp_assign(self, value)
+
+    def value(self):
+        return _bilinearform.intp_value(self)
+
+    def cast(self):
+        return _bilinearform.intp_cast(self)
+    if _newclass:
+        frompointer = staticmethod(_bilinearform.intp_frompointer)
+    else:
+        frompointer = _bilinearform.intp_frompointer
+intp_swigregister = _bilinearform.intp_swigregister
+intp_swigregister(intp)
+
+def intp_frompointer(t):
+    return _bilinearform.intp_frompointer(t)
+intp_frompointer = _bilinearform.intp_frompointer
+
+class doublep(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, doublep, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, doublep, name)
+    __repr__ = _swig_repr
+
+    def __init__(self):
+        this = _bilinearform.new_doublep()
+        try:
+            self.this.append(this)
+        except __builtin__.Exception:
+            self.this = this
+    __swig_destroy__ = _bilinearform.delete_doublep
+    __del__ = lambda self: None
+
+    def assign(self, value):
+        return _bilinearform.doublep_assign(self, value)
+
+    def value(self):
+        return _bilinearform.doublep_value(self)
+
+    def cast(self):
+        return _bilinearform.doublep_cast(self)
+    if _newclass:
+        frompointer = staticmethod(_bilinearform.doublep_frompointer)
+    else:
+        frompointer = _bilinearform.doublep_frompointer
+doublep_swigregister = _bilinearform.doublep_swigregister
+doublep_swigregister(doublep)
+
+def doublep_frompointer(t):
+    return _bilinearform.doublep_frompointer(t)
+doublep_frompointer = _bilinearform.doublep_frompointer
+
 import array
 import ostream_typemap
 import fespace
@@ -137,7 +207,11 @@ class BilinearForm(matrix.Matrix):
     __repr__ = _swig_repr
 
     def __init__(self, *args):
-        this = _bilinearform.new_BilinearForm(*args)
+        if self.__class__ == BilinearForm:
+            _self = None
+        else:
+            _self = self
+        this = _bilinearform.new_BilinearForm(_self, *args)
         try:
             self.this.append(this)
         except __builtin__.Exception:
@@ -158,6 +232,8 @@ class BilinearForm(matrix.Matrix):
     def EnableHybridization(self, constr_space, constr_integ, ess_tdof_list):
         val = _bilinearform.BilinearForm_EnableHybridization(self, constr_space, constr_integ, ess_tdof_list)
 
+        if not hasattr(self, "_integrators"): self._integrators = []
+        self._integrators.append(constr_integ)
         constr_integ.thisown = 0
 
 
@@ -271,7 +347,7 @@ class BilinearForm(matrix.Matrix):
     def AddBdrFaceIntegrator(self, *args):
 
         if not hasattr(self, "_integrators"): self._integrators = []
-        bfi = args[0]	     
+        bfi = args[0]
         self._integrators.append(bfi)
         bfi.thisown=0 
 
@@ -343,6 +419,10 @@ class BilinearForm(matrix.Matrix):
         return _bilinearform.BilinearForm_FESpace(self, *args)
     __swig_destroy__ = _bilinearform.delete_BilinearForm
     __del__ = lambda self: None
+    def __disown__(self):
+        self.this.disown()
+        _bilinearform.disown_BilinearForm(self)
+        return weakref_proxy(self)
 BilinearForm_swigregister = _bilinearform.BilinearForm_swigregister
 BilinearForm_swigregister(BilinearForm)
 
